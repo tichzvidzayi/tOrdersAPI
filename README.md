@@ -1,2 +1,2 @@
 # TOrdersAPI
-A simple API for allows the retrieval and modification of Stores data.
+A RESTful API for storing and retrieving items is a Store. The API was tested using the Postman application. 
