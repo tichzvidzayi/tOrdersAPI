@@ -1,2 +1,2 @@
 # TOrdersAPI
-A simple API that allows GET, POST  headers
+A simple API for allows the retrieval and modification of Stores data.
