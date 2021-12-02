@@ -1,0 +1,24 @@
+[
+    {
+        "items": [
+            {
+                "name": "Handbag",
+                "price": 499
+            }
+        ],
+        "name": "MrPrice"
+    },
+    {
+        "items": [
+            {
+                "name": "Shoe",
+                "price": 799
+            }
+        ],
+        "name": "Ackermans"
+    },
+    {
+        "items": [],
+        "name": "Edgars"
+    }
+]
