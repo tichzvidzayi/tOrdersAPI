@@ -8,6 +8,7 @@ inp = open('myfile.json')
 stores = json.load(inp)
 
 #API data
+
 '''
 stores = [    
  {
