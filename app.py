@@ -17,9 +17,7 @@ stores = [
                    {  'name':'Shoes','price': 499 }
                  ]
 },
-
  {
-
         'name':'Ackermans',
         'items': [
                    { 'name':'Shoe','price': 799 }
@@ -38,7 +36,7 @@ def Update():
 #POST/ store data
 @app.route('/store',methods=['POST'] )
 def create_store():
-    req_data= request.get_json()
+    req_data = request.get_json()
     new_data = {
         'name': req_data['name'],
         'items':[]
@@ -46,7 +44,7 @@ def create_store():
     stores.append(new_data)
     Update()
     return jsonify(new_data)
-
+   
 #GET /store/<string:name>
 @app.route('/store/<string:name>')
 def get_store(name):
